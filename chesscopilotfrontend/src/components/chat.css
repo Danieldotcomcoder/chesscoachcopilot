@@ -1,0 +1,117 @@
+/* General Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 45%;
+    max-width: 650px; 
+    background: #fff; 
+    border-radius: 5px;
+    padding: 1%; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif; /* Modern fonts */
+    overflow: hidden; 
+    margin-top: 1%;
+    margin-left: 1%;
+    height: auto;
+  }
+  
+  
+  .new-conversation-btn {
+    background: #2980b9; 
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    margin-bottom: 15px; 
+  }
+  .new-conversation-btn:hover {
+    background: #216495; 
+  }
+
+  .message-container {
+    flex: 0; 
+    padding: 10px;
+    margin-top: 5%;
+    background: linear-gradient(135deg, lightgrey, grey); 
+    border-radius: 25px;
+  }
+  
+ 
+  .message {
+    display: flex; /* Use flexbox for easier alignment */
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 80%; /* Messages don't take up full width */
+  }
+  
+  .user-message {
+    color: #222;
+    background: #e6f7ff; 
+    align-self: flex-end;
+    margin-left: auto; 
+  }
+  
+  .system-message {
+    color: #555;
+    background: #b2f4f7; 
+    align-self: flex-start;
+  }
+  
+ 
+  .input-section {
+    display: flex;
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #eee;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #3d3c3c;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .send-btn {
+    background: #2ecc71; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background: #27ae60; 
+  }
+
+  .predefined-questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .question-btn {
+    width: 25%;
+    background: #c0d4c9; 
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+
+  .question-btn:hover {
+    background: #51af7c; 
+  }

@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.full-board {
+    width: 45%;
+}
+
+.loaded-positions {
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.position {
+    width: 100%;
+    margin-top: 1%;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.loaded-positions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    overflow-y: auto;
+}
